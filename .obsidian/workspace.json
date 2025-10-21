@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "6c4a0720c17c8b09",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ffa7b962089e369",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e764f1d9e6346294",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UserStories.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UserStories"
+            }
+          },
+          {
+            "id": "15761f718007d6dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tailwind-css-correlation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tailwind-css-correlation"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22de513c5682dbf5",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2f27fff499c5179",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83582476aff30ff8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "59c6796b4df6abb4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8c750bb72768ebd7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "b1c5f5de490d10ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "3970b3f5a0f36eb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "456d04a7a364af69",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "UserStories.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for UserStories"
+            }
+          },
+          {
+            "id": "2e2e1f178db0403b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "UserStories.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from UserStories"
+            }
+          },
+          {
+            "id": "ed7fd1f51fa1493e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d96325849fcb197d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "UserStories.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of UserStories"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e764f1d9e6346294",
+  "lastOpenFiles": [
+    "drizzle.config.ts~",
+    "drizzle.config.ts",
+    "db/migrate.ts~",
+    "db/migrate.ts",
+    "db/schema.ts~",
+    "db/schema.ts",
+    "db/index.ts",
+    "db",
+    "node_modules/@esbuild-kit/core-utils/node_modules/@esbuild/linux-x64/README.md",
+    "node_modules/@esbuild-kit/core-utils/node_modules/@esbuild/linux-x64/package.json",
+    "node_modules/@drizzle-team/brocli/index.d.ts",
+    "node_modules/@drizzle-team/brocli/README.md",
+    "node_modules/@drizzle-team/brocli/index.js.map",
+    "node_modules/@esbuild-kit/core-utils/node_modules/esbuild/README.md",
+    "node_modules/@esbuild-kit/core-utils/node_modules/esbuild/LICENSE.md",
+    "node_modules/@esbuild-kit/core-utils/README.md",
+    "node_modules/@esbuild-kit/esm-loader/README.md",
+    "node_modules/es5-ext/README.md",
+    "node_modules/es5-ext/CHANGELOG.md",
+    "node_modules/zod/README.md",
+    "node_modules/esbuild-linux-64/README.md",
+    "node_modules/type/README.md",
+    "node_modules/type/CHANGELOG.md",
+    "node_modules/type/docs/value.md",
+    "node_modules/type/docs/time-value.md",
+    "node_modules/type/docs/thenable.md",
+    "node_modules/type/docs/string.md",
+    "node_modules/type/docs/set.md",
+    "node_modules/type/docs/safe-integer.md",
+    "node_modules/type/docs/reg-exp.md",
+    "node_modules/type/docs/prototype.md",
+    "node_modules/type/docs/promise.md",
+    "node_modules/type/docs/plain-object.md",
+    "node_modules/type/docs/plain-function.md",
+    "node_modules/type/docs/object.md",
+    "node_modules/type/docs/number.md",
+    "public/images/computer_background.jpeg",
+    "public/images/computer_background.jpg",
+    "public/images/AdobeStock_112185177.jpeg",
+    "public/AdobeStock_112185177.jpeg",
+    "AdobeStock_112185177.jpeg"
+  ]
+}
