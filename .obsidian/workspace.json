@@ -214,6 +214,7 @@
   "active": "e764f1d9e6346294",
   "lastOpenFiles": [
     "app/(rs)/tickets/form/page.tsx~",
+    "lib/queries/getTickets.ts~",
     "app/(rs)/customers/form/page.tsx~",
     "app/(rs)/tickets/form/page.tsx",
     "app/(rs)/tickets/form",
@@ -228,7 +229,6 @@
     "app/(rs)/tickets/page.tsx~",
     "markdownFiles",
     "app/(rs)/customers/page.tsx~",
-    "app/(rs)/customers/form/page.tsx",
     "node_modules/@esbuild-kit/core-utils/node_modules/@esbuild/linux-x64/README.md",
     "node_modules/@drizzle-team/brocli/README.md",
     "node_modules/@esbuild-kit/core-utils/node_modules/esbuild/README.md",

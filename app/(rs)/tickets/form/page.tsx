@@ -1,5 +1,5 @@
 import { getCustomer } from "@/lib/queries/getCustomer";
-import { getTicket } from "@/lib/queries/getTicket";
+import { getTicket } from "@/lib/queries/getTickets";
 import { BackButton } from "@/components/BackButton";
 import * as Sentry from "@sentry/nextjs";
 
