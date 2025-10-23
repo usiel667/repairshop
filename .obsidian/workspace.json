@@ -13,12 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "UserStories.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UserStories"
+            }
+          },
+          {
+            "id": "5b9b6073273c288e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "markdownFiles/drizzle-neon-setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "drizzle-neon-setup"
+            }
+          },
+          {
+            "id": "526e38cd6ff15172",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdownFiles/SENTRY_GUIDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SENTRY_GUIDE"
+            }
+          },
+          {
+            "id": "e97264b6bd8e0155",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdownFiles/tailwind-css-correlation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tailwind-css-correlation"
             }
           }
         ]
@@ -78,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b1c5f5de490d10ce",
@@ -172,21 +213,22 @@
   },
   "active": "e764f1d9e6346294",
   "lastOpenFiles": [
-    "UserStories.md",
-    "markdownFiles/drizzle-neon-setup.md",
-    "tailwind-css-correlation.md",
+    "app/(rs)/tickets/form/page.tsx~",
+    "app/(rs)/customers/form/page.tsx~",
+    "app/(rs)/tickets/form/page.tsx",
+    "app/(rs)/tickets/form",
+    "components/BackButton.tsx~",
+    "components/BackButton.tsx",
     "markdownFiles/tailwind-css-correlation.md",
     "markdownFiles/SENTRY_GUIDE.md",
-    "app/(rs)/customers/form/page.tsx~",
+    "markdownFiles/drizzle-neon-setup.md",
+    "UserStories.md",
+    "tailwind-css-correlation.md",
     "app/(rs)/home/page.tsx~",
     "app/(rs)/tickets/page.tsx~",
     "markdownFiles",
     "app/(rs)/customers/page.tsx~",
     "app/(rs)/customers/form/page.tsx",
-    "app/(rs)/customers/form",
-    "lib/queries/getTickets.ts",
-    "lib/queries/getTickets",
-    "lib/queries/getCustomer.ts~",
     "node_modules/@esbuild-kit/core-utils/node_modules/@esbuild/linux-x64/README.md",
     "node_modules/@drizzle-team/brocli/README.md",
     "node_modules/@esbuild-kit/core-utils/node_modules/esbuild/README.md",
@@ -207,7 +249,6 @@
     "node_modules/type/docs/safe-integer.md",
     "node_modules/type/docs/reg-exp.md",
     "node_modules/type/docs/prototype.md",
-    "node_modules/type/docs/promise.md",
     "public/images/computer_background.jpeg",
     "public/images/computer_background.jpg",
     "public/images/AdobeStock_112185177.jpeg",
