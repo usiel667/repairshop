@@ -1,5 +1,7 @@
 import { getCustomer } from "@/lib/queries/getCustomer";
 import { BackButton } from "@/components/BackButton";
+import * as Sentry from "@sentry/nextjs";
+import CustomerForm from "@/app/(rs)/customers/form/CustomerForm";
 
 export default async function CustomerFormPage({
   searchParams,
@@ -30,26 +32,29 @@ export default async function CustomerFormPage({
       }
       console.log("=== DEBUG: Rendering edit form for customer:", customer);
       // put customer form component here
-      return (
-        <div>
-          <h2>
-            Edit Customer: {customer.firstName} {customer.lastName}
-          </h2>
-          <pre>{JSON.stringify(customer, null, 2)}</pre>
-        </div>
-      );
+      // return (
+      //   <div>
+      //     <h2>
+      //       Edit Customer: {customer.firstName} {customer.lastName}
+      //     </h2>
+      //     <pre>{JSON.stringify(customer, null, 2)}</pre>
+      //   </div>
+      // );
+      return <CustomerForm customer={customer} />;
     } else {
       console.log("=== DEBUG: No customerId, rendering new customer form");
       // put new customer form component here
-      return (
-        <div>
-          <h2>New Customer Form</h2>
-        </div>
-      );
+      // return (
+      //   <div>
+      //     <h2>New Customer Form</h2>
+      //   </div>
+      // );
+      return <CustomerForm />;
     }
   } catch (e) {
     console.error("=== DEBUG: Error caught:", e);
     if (e instanceof Error) {
+      Sentry.captureException(e);
       throw e;
     }
   }

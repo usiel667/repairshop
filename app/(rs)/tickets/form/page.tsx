@@ -66,6 +66,15 @@ export default async function TicketFormPage({
       }
 
       const customer = await getCustomer(ticket.customerId);
+      return (
+        <div>
+          <h2>
+            Edit Ticket ID #{ticket.id} for {customer?.firstName}{" "}
+            {customer?.lastName}
+          </h2>
+          <pre>{JSON.stringify(ticket, null, 2)}</pre>
+        </div>
+      );
 
       // return ticket form
       console.log("ticket: ", ticket);

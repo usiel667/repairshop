@@ -24,11 +24,11 @@
 
 # STACK USED:
 
-1. [x] Next.js
+1. [ ] Next.js
 2. [x] ShadCN/ui
 3. [x] Sentry Next.js
 4. [x] Tailwind CSS
 5. [x] TS
 6. [x] Neon Postgres
 7. [x] Kinde Auth
-8. [ ] 
+8. [x] Zod
