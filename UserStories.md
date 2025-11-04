@@ -24,7 +24,7 @@
 
 # STACK USED:
 
-1. [ ] Next.js
+1. [x] Next.js
 2. [x] ShadCN/ui
 3. [x] Sentry Next.js
 4. [x] Tailwind CSS
@@ -32,3 +32,10 @@
 6. [x] Neon Postgres
 7. [x] Kinde Auth
 8. [x] Zod
+
+
+# **Notes:**
+
+1. [ ] look into the difference between ?? and ||.  Need to change the || to ?? in CustomerForm.tsx to match TicketFrom.tsx.(look up and fix this weekend with also figuring out and practicing how to select all of them at once and changing them all at once in nvim)
+2. [ ] figure out why on http://localhost:3000/tickets/form?ticketId=4 the output on the brower after ## Edit Ticket ID #4 for Jane Smith is in decending order instead of just a string across the screen.
+3. [ ] 
