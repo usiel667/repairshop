@@ -5,6 +5,9 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { Form } from "@/components/ui/form";
 import { Button } from "@/components/ui/button";
 import { InputWithLabel } from "@/components/inputs/InputWithLabel";
+import { SelectWithLabel } from "@/components/inputs/SelectWithLabel";
+import { TextAreaWithLabel } from "@/components/inputs/TextAreaWithLabel";
+import { StatesArray } from "@/constants/StatesArray";
 import {
   insertCustomerSchema,
   type insertCustomerSchemaType,
@@ -72,8 +75,52 @@ export default function CustomerForm({ customer }: Props) {
               fieldTitle="City"
               nameInSchema="city"
             />
+            <SelectWithLabel<insertCustomerSchemaType>
+              fieldTitle="State"
+              nameInSchema="state"
+              dataArray={StatesArray}
+            />
           </div>
-          <p>{JSON.stringify(form.getValues())}</p>
+          <div className="flex flex-col gap-4 w-full max-w-xs">
+            <InputWithLabel<insertCustomerSchemaType>
+              fieldTitle="Zip Code"
+              nameInSchema="zipCode"
+            />
+            <InputWithLabel<insertCustomerSchemaType>
+              fieldTitle="Email"
+              nameInSchema="email"
+            />
+            <InputWithLabel<insertCustomerSchemaType>
+              fieldTitle="Phone"
+              nameInSchema="phone"
+            />
+
+            <TextAreaWithLabel<insertCustomerSchemaType>
+              fieldTitle="Notes"
+              nameInSchema="notes"
+              className="h-40"
+            />
+
+            <div className="flex gap-2">
+              <Button
+                type="submit"
+                className="w-3/4"
+                variant="default"
+                title="Save"
+              >
+                Save
+              </Button>
+
+              <Button
+                type="button"
+                variant="destructive"
+                title="Reset"
+                onClick={() => form.reset(defaultValues)}
+              >
+                Reset
+              </Button>
+            </div>
+          </div>
         </form>
       </Form>
     </div>

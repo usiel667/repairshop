@@ -3,6 +3,8 @@ import { BackButton } from "@/components/BackButton";
 import * as Sentry from "@sentry/nextjs";
 import CustomerForm from "@/app/(rs)/customers/form/CustomerForm";
 
+export const dynamic = "force-dynamic";
+
 export default async function CustomerFormPage({
   searchParams,
 }: {

@@ -7,7 +7,7 @@
 5. [ ] Provide easy navigation & search for customers & tickets
 6. [x] Provide a logout option
 7. [x] Require users to login at least once per week
-8. [x] Provide a way to remove employee access asap if needed
+8. [ ] Provide a way to remove employee access asap if needed
 9. [x] Customers have an ID, full address, phone, email & notes
 10. [x] Tickets have an ID, title, notes, created & updated dates
 11. [x] Tickets are either OPEN or COMPLETED

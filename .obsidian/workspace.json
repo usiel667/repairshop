@@ -75,8 +75,7 @@
               "title": "tailwind-css-correlation"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,20 +224,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "9f32ad73f59ee653",
+  "active": "e764f1d9e6346294",
   "lastOpenFiles": [
-    "components/inputs/InputWithLabel.tsx~",
-    "components/ui/input.tsx~",
-    "app/layout.tsx~",
-    "app/(rs)/customers/form/CustomerForm.tsx~",
+    "app/(rs)/tickets/form/TicketForm.tsx~",
+    "app/(rs)/tickets/form/page.tsx~",
+    "zod-schema/ticket.ts~",
+    "components/inputs/SelectWithLabel.tsx~",
+    "node_modules/@esbuild-kit/core-utils/node_modules/@esbuild/linux-x64/README.md",
+    "node_modules/@esbuild-kit/core-utils/node_modules/@esbuild/linux-x64/package.json",
+    "node_modules/@drizzle-team/brocli/index.d.ts",
+    "node_modules/@drizzle-team/brocli/README.md",
+    "node_modules/@drizzle-team/brocli/index.js.map",
+    "node_modules/@esbuild-kit/core-utils/node_modules/esbuild/README.md",
+    "node_modules/@esbuild-kit/core-utils/node_modules/esbuild/LICENSE.md",
+    "node_modules/@drizzle-team/brocli/index.cjs.map",
+    "node_modules/@esbuild-kit/core-utils/node_modules/esbuild/package.json",
+    "node_modules/@drizzle-team/brocli/package.json",
+    "node_modules/@drizzle-team/brocli/index.js",
+    "node_modules/@esbuild-kit/core-utils/README.md",
+    "node_modules/@esbuild-kit/esm-loader/README.md",
+    "markdownFiles/tailwind-css-correlation.md",
     "UserStories.md",
-    "components/inputs/InputWithLabel.tsx",
-    "components/inputs",
-    "components/ui/checkbox.tsx",
-    "components/ui/textarea.tsx",
-    "components/ui/select.tsx",
-    "components/ui/input.tsx",
-    "node_modules/@radix-ui/react-checkbox/LICENSE",
+    "markdownFiles/SENTRY_GUIDE.md",
+    "markdownFiles/drizzle-neon-setup.md",
     "node_modules/@radix-ui/react-checkbox/README.md",
     "node_modules/@radix-ui/react-select/README.md",
     "node_modules/@radix-ui/react-visually-hidden/README.md",
@@ -254,15 +262,6 @@
     "node_modules/esbuild-linux-64/README.md",
     "node_modules/type/README.md",
     "node_modules/type/CHANGELOG.md",
-    "node_modules/type/docs/value.md",
-    "node_modules/type/docs/time-value.md",
-    "node_modules/type/docs/thenable.md",
-    "node_modules/type/docs/string.md",
-    "node_modules/type/docs/set.md",
-    "node_modules/type/docs/safe-integer.md",
-    "node_modules/type/docs/reg-exp.md",
-    "node_modules/type/docs/prototype.md",
-    "node_modules/type/docs/promise.md",
     "public/images/computer_background.jpeg",
     "public/images/computer_background.jpg",
     "public/images/AdobeStock_112185177.jpeg",
