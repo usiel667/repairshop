@@ -9,7 +9,7 @@
 7. [x] Require users to login at least once per week
 8. [ ] Provide a way to remove employee access asap if needed
 9. [x] Customers have an ID, full address, phone, email & notes
-10. [x] Tickets have an ID, title, notes, created & updated dates
+10. [ ] Tickets have an ID, title, notes, created & updated dates
 11. [x] Tickets are either OPEN or COMPLETED
 12. [x] Tickets are assigned to specific employees
 13. [x] Users can have Employee, Manager, or Admin permissions
@@ -18,7 +18,7 @@
 16. [ ] Employees can only edit their assigned tickets
 17. [ ] Managers and Admins can view, edit, and delete all tickets
 18. [ ] Desktop mode is most important but the app should be usable on tablet devices as well.
-19. [x] Light / Dark mode option requested by employees
+19. [ ] Light / Dark mode option requested by employees
 20. [x] Expects quick support if anything goes wrong with the app
 
 

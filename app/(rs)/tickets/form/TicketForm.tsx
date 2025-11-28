@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { InputWithLabel } from "@/components/inputs/InputWithLabel";
 import { SelectWithLabel } from "@/components/inputs/SelectWithLabel";
 import { TextAreaWithLabel } from "@/components/inputs/TextAreaWithLabel";
+import { CheckboxWithLabel } from "@/components/inputs/CheckboxWithLabel";
 
 import {
   insertTicketSchema,
@@ -60,7 +61,12 @@ export default function TicketForm({ customer, ticket }: Props) {
             <InputWithLabel<insertTicketSchemaType>
               fieldTitle="Tech"
               nameInSchema="tech"
-              readOnly={true}
+              disabled={true}
+            />
+            <CheckboxWithLabel<insertTicketSchemaType>
+              fieldTitle="Completed"
+              nameInSchema="completed"
+              message="Yes"
             />
             <div className="mt-4 space-y-2">
               <h3 className="text-lg">Customer Info</h3>
