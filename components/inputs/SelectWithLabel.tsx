@@ -25,14 +25,14 @@ type DataObj = {
 type Props<S> = {
   fieldTitle: string;
   nameInSchema: keyof S & string;
-  dataArray: DataObj[];
+  data: DataObj[];
   className?: string;
 };
 
 export function SelectWithLabel<S>({
   fieldTitle,
   nameInSchema,
-  dataArray,
+  data,
   className,
 }: Props<S>) {
   const form = useFormContext();
@@ -47,7 +47,7 @@ export function SelectWithLabel<S>({
             {fieldTitle}
           </FormLabel>
 
-          <Select {...field} onValueChange={field.onChange}>
+          <Select value={field.value} onValueChange={field.onChange}>
             <FormControl>
               <SelectTrigger
                 id={nameInSchema}
@@ -57,7 +57,7 @@ export function SelectWithLabel<S>({
               </SelectTrigger>
             </FormControl>
             <SelectContent>
-              {dataArray.map((item) => (
+              {data.map((item) => (
                 <SelectItem key={`${nameInSchema}_${item.id}`} value={item.id}>
                   {item.description}
                 </SelectItem>

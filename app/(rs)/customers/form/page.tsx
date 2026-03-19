@@ -2,6 +2,19 @@ import { getCustomer } from "@/lib/queries/getCustomer";
 import { BackButton } from "@/components/BackButton";
 import * as Sentry from "@sentry/nextjs";
 import CustomerForm from "@/app/(rs)/customers/form/CustomerForm";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | undefined }>;
+}): Promise<Metadata> {
+  const { customerId } = await searchParams
+
+  if (!customerId) return { title: "New Customer" }
+
+  return { title: `Edit Customer #${customerId}` }
+}
 
 export const dynamic = "force-dynamic";
 
